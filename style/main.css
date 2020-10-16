@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+    
+}
+
+.under-construction-section{
+    width: 100%;
+    max-width: 50vh;
+    max-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px;
+}
+
+.under-construction-section--image{
+    height: auto;
+    width: 100%;
+}
+
+.under-construction-section--title, .under-construction-section--subtitle{
+    text-align: center;
+    margin-top: 8px;
+}
