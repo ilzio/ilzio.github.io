@@ -42,14 +42,13 @@ main {
     color: white;
 }
 
-@media screen and (max-width: 768px){
-.under-construction--title {
-    font-size: 3em;
+@media screen and (max-width: 768px) {
+    .under-construction--title {
+        font-size: 3em;
+    }
 }
-@media screen and (max-width: 576px){
-.under-construction--title {
-    font-size: 2em;
+@media screen and (max-width: 576px) {
+    .under-construction--title {
+        font-size: 2em;
+    }
 }
-
-}
-
